@@ -87,11 +87,13 @@
     <p>🪐 Пасхалка: Maks + Era pls my bibi cococik love🤭.</p>
   </footer>
 
-  <div class="secret-zone">
-  <p>🔒 Введите код для доступа к секретной зоне:</p>
-  <input type="password" id="secretPassword" placeholder="Введите пароль..." />
-  <button onclick="checkPassword()">Открыть</button>
-  <p id="wrongPass" style="color: red; display: none;">Неправильный пароль!</p>
+  <div class="secret-wrapper">
+  <div class="secret-box">
+    <p>🚀 Введите секретный код для доступа:</p>
+    <input type="password" id="secretPassword" placeholder="Введите пароль..." />
+    <button onclick="checkPassword()">Открыть</button>
+    <p id="wrongPass">❌ Неверный пароль</p>
+  </div>
 </div>
 
 <script>
@@ -103,7 +105,7 @@
       document.getElementById("wrongPass").style.display = "block";
     }
   }
-</script> 
+</script>> 
   
 </body>
 </html>
