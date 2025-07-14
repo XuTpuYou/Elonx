@@ -87,5 +87,23 @@
     <p>🪐 Пасхалка: Maks + Era pls my bibi cococik love🤭.</p>
   </footer>
 
+  <div class="secret-zone">
+  <p>🔒 Введите код для доступа к секретной зоне:</p>
+  <input type="password" id="secretPassword" placeholder="Введите пароль..." />
+  <button onclick="checkPassword()">Открыть</button>
+  <p id="wrongPass" style="color: red; display: none;">Неправильный пароль!</p>
+</div>
+
+<script>
+  function checkPassword() {
+    const pass = document.getElementById("secretPassword").value;
+    if (pass === "kensiz09") {
+      window.location.href = "secret.html";
+    } else {
+      document.getElementById("wrongPass").style.display = "block";
+    }
+  }
+</script> 
+  
 </body>
 </html>
