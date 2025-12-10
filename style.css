@@ -1,18 +1,9 @@
-* {
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   color: #fff;
-
-  /* 🔽 ЕСЛИ ХОЧЕШЬ СВОЙ ФОН — ЗАГРУЗИ ФАЙЛ (например, bg.jpg) */
   background: url('myspace.jpg') no-repeat center center fixed;
   background-size: cover;
-
-  /* 🔁 Резервный цвет если фон не загрузится */
   background-color: #000;
 }
 
